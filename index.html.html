@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Motion Labs is a SaaS motion design portfolio creating launch films, product explainers, UI motion, and scroll-stopping campaigns." />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Motion Labs &mdash; SaaS Motion Design Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="intro" aria-hidden="true"><span>MOTION LABS</span></div>
+    <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+    <header class="site-header">
+      <a class="brand magnetic" href="#top" aria-label="Motion Labs home">
+        <span class="brand__mark"><i></i><i></i><i></i></span>
+        <span>Motion Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="magnetic" href="#intro-video">Intro</a>
+        <a class="magnetic" href="#work">Work</a>
+        <a class="magnetic" href="#systems">Systems</a>
+        <a class="magnetic" href="#contact">Contact</a>
+      </nav>
+      <a class="button button--small magnetic" href="#contact" data-cursor="hide">Start a project <span>&nearr;</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-atmosphere" aria-hidden="true">
+          <span class="hero-atmosphere__glow hero-atmosphere__glow--deep"></span>
+          <span class="hero-atmosphere__glow hero-atmosphere__glow--royal"></span>
+          <span class="hero-atmosphere__glow hero-atmosphere__glow--cyan"></span>
+          <span class="hero-atmosphere__glow hero-atmosphere__glow--depth"></span>
+        </div>
+
+        <div class="hero__content section-shell">
+          <p class="eyebrow reveal">Independent portfolio <span></span> SaaS motion design</p>
+          <h1 id="hero-title" class="hero__title">Motion Labs</h1>
+          <p class="hero__lede reveal">I turn product features, launches, and founder ideas into clean motion systems that feel expensive, explain fast, and make people want to keep watching.</p>
+          <div class="hero__actions reveal">
+            <a class="button magnetic" href="#contact" data-cursor="hide">Book a motion project <span>&nearr;</span></a>
+            <a class="text-link magnetic" href="#work">View selected work <span>&darr;</span></a>
+          </div>
+        </div>
+
+        <div class="hero__dock section-shell reveal" aria-label="Portfolio highlights">
+          <div class="glass-tile"><span>Focus</span><strong>SaaS launches</strong></div>
+          <div class="glass-tile"><span>Output</span><strong>Reels, explainers, UI motion</strong></div>
+          <div class="glass-tile"><span>Style</span><strong>Liquid glass, kinetic type, product clarity</strong></div>
+        </div>
+      </section>
+
+      <section class="trust section-shell" aria-label="Studio experience">
+        <p>Designed for founders, SaaS teams, and brands that need their product to feel obvious in seconds.</p>
+        <div class="trust__metrics">
+          <div><strong>15+</strong><span>projects shipped</span></div>
+          <div><strong>4</strong><span>motion systems</span></div>
+          <div><strong>24h</strong><span>typical reply</span></div>
+        </div>
+        <div class="trust__tags" aria-label="Specialties">
+          <span>Product explainers</span><span>Launch reels</span><span>UI motion</span><span>SaaS ads</span>
+        </div>
+      </section>
+
+      <section class="intro-video section-shell" id="intro-video" aria-labelledby="intro-video-title">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="eyebrow">01 / Introduction</p>
+            <h2 id="intro-video-title">Meet the mind behind the motion.</h2>
+          </div>
+          <p>Add your introduction video here: a short personal clip about who you are, what you make, and why SaaS teams should trust your taste.</p>
+        </div>
+
+        <div class="intro-video__stage reveal">
+          <div class="intro-video__frame has-video" data-cursor="play">
+            <video class="intro-video__media" controls preload="metadata" playsinline aria-label="Motion Labs introduction video">
+              <source src="assets/intro-video.mp4" type="video/mp4" />
+            </video>
+            <div class="intro-video__placeholder" aria-hidden="true">
+              <span class="intro-video__play">&#9658;</span>
+              <p>INTRO VIDEO SLOT</p>
+              <strong>Watch the Motion Labs introduction</strong>
+              <small>A quick look at the motion style, process, and SaaS-focused creative direction.</small>
+            </div>
+          </div>
+          <div class="intro-video__notes">
+            <span>Suggested flow</span>
+            <p>Who you are -> what SaaS motion problems you solve -> a glimpse of your style -> invite them to start a project.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">02 / Selected portfolio</p>
+          <h2 id="work-title">Motion that makes software feel simple.</h2>
+          <p>Three sample directions showing how I think about product clarity, rhythm, and conversion.</p>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card work-card--feature reveal" data-cursor="play">
+            <div class="work-card__visual visual--dashboard has-work-video">
+              <video class="work-card__video" controls preload="metadata" playsinline aria-label="SaaS product explainer video by Motion Labs">
+                <source src="assets/saas-explainer.mp4" type="video/mp4" />
+              </video>
+              <div class="device-glass" aria-hidden="true">
+                <div class="device-top"><span></span><span></span><span></span></div>
+                <div class="device-chart"><i></i><i></i><i></i><i></i></div>
+                <div class="device-row"></div>
+                <div class="device-row device-row--short"></div>
+              </div>
+              <span class="visual-label">PRODUCT EXPLAINER / SAAS</span>
+              <span class="floating-chip floating-chip--one">Activation +31%</span>
+              <span class="floating-chip floating-chip--two">Clear in 08 sec</span>
+              <span class="visual-play">&#9658;</span>
+            </div>
+            <div class="work-card__meta">
+              <div><p class="work-card__type">SaaS explainer</p><h3>Product Motion Film</h3></div>
+              <p>A polished SaaS explainer preview for making product value feel clear and premium.</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-cursor="play">
+            <div class="work-card__visual visual--type has-work-video">
+              <video class="work-card__video" controls preload="metadata" playsinline aria-label="Spotify-style launch motion video by Motion Labs">
+                <source src="assets/spotify-project.mp4" type="video/mp4" />
+              </video>
+              <span aria-hidden="true">SHIP<br />THE<br />WOW.</span>
+              <span class="ticker">MOTION LABS &mdash; PRODUCT LAUNCH &mdash; UI MOTION &mdash;</span>
+              <span class="visual-play">&#9658;</span>
+            </div>
+            <div class="work-card__meta">
+              <div><p class="work-card__type">Launch content</p><h3>Spotify Motion Concept</h3></div>
+              <p>A fast, music-led launch motion direction built to feel sharp in-feed.</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-cursor="play">
+            <div class="work-card__visual visual--glass has-work-video">
+              <video class="work-card__video" controls preload="metadata" playsinline aria-label="UI motion video by Motion Labs">
+                <source src="assets/ui-motion.mp4" type="video/mp4" />
+              </video>
+              <span class="glass-prism glass-prism--one" aria-hidden="true"></span>
+              <span class="glass-prism glass-prism--two" aria-hidden="true"></span>
+              <b aria-hidden="true">01<br /><i>feature</i></b>
+              <span class="visual-play">&#9658;</span>
+            </div>
+            <div class="work-card__meta">
+              <div><p class="work-card__type">UI motion</p><h3>Interface Motion Study</h3></div>
+              <p>Micro-interactions, product moments, and visual rhythm for a cleaner app story.</p>
+            </div>
+          </article>
+
+          <article class="work-card work-card--wide reveal" data-cursor="play">
+            <div class="work-card__visual visual--showcase has-work-video">
+              <video class="work-card__video" controls preload="metadata" playsinline aria-label="Motion Labs showcase video">
+                <source src="assets/motion-lab-showcase.mp4" type="video/mp4" />
+              </video>
+              <span class="visual-label">MOTION SHOWCASE / BRAND SYSTEM</span>
+              <span class="visual-play">&#9658;</span>
+            </div>
+            <div class="work-card__meta">
+              <div><p class="work-card__type">Motion showcase</p><h3>Brand Motion Slot</h3></div>
+              <p>A dedicated showcase slot for another motion piece, built to sit cleanly inside the selected work section.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="systems section-shell" id="systems" aria-labelledby="systems-title">
+        <div class="section-heading section-heading--split">
+          <div><p class="eyebrow">03 / Motion systems</p><h2 id="systems-title">Not just edits. A reusable visual language.</h2></div>
+          <p>I build motion around your SaaS product: interface behaviour, feature reveals, typography, transitions, and export formats that can scale beyond one video.</p>
+        </div>
+        <div class="system-board reveal">
+          <div class="system-card system-card--wide">
+            <span>01</span>
+            <h3>Launch film architecture</h3>
+            <p>Hook, proof, feature clarity, emotional payoff, and CTA mapped before a single keyframe.</p>
+          </div>
+          <div class="system-card">
+            <span>02</span>
+            <h3>Interface choreography</h3>
+            <p>Product screens move with intention, so every tap, chart, and feature feels easy to understand.</p>
+          </div>
+          <div class="system-card">
+            <span>03</span>
+            <h3>Social cutdown kit</h3>
+            <p>Short variants for reels, ads, founder posts, landing pages, and investor updates.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section-shell" aria-labelledby="process-title">
+        <div class="section-heading">
+          <p class="eyebrow">04 / Process</p>
+          <h2 id="process-title">A sharp path from messy idea to polished motion.</h2>
+        </div>
+        <ol class="process-list">
+          <li class="reveal"><span>01</span><div><h3>Decode</h3><p>We find the product truth, the audience tension, and the one action the motion needs to create.</p></div></li>
+          <li class="reveal"><span>02</span><div><h3>Design</h3><p>I shape the art direction, motion pace, script beats, and visual hierarchy before production.</p></div></li>
+          <li class="reveal"><span>03</span><div><h3>Animate</h3><p>The edit gets built with glass, type, UI motion, sound rhythm, and conversion-focused pacing.</p></div></li>
+          <li class="reveal"><span>04</span><div><h3>Deliver</h3><p>You receive exports for the exact channels where the motion needs to perform.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="proof section-shell" aria-labelledby="proof-title">
+        <p class="eyebrow">05 / Why it works</p>
+        <div class="proof__quote">
+          <span class="quote-mark">&ldquo;</span>
+          <blockquote id="proof-title">Good SaaS motion should feel like the product finally learned how to explain itself.</blockquote>
+          <div><span class="avatar">SA</span><p><strong>Your portfolio promise</strong><br />Clarity, taste, and motion that supports conversion.</p></div>
+        </div>
+        <div class="proof__stats">
+          <div><strong>3D</strong><span>glass-led hero direction</span></div>
+          <div><strong>15+</strong><span>projects shipped with care</span></div>
+          <div><strong>100%</strong><span>solo attention on the work</span></div>
+        </div>
+      </section>
+
+      <section class="faq section-shell" aria-labelledby="faq-title">
+        <div class="section-heading section-heading--split">
+          <div><p class="eyebrow">06 / Details</p><h2 id="faq-title">Clean answers before we start.</h2></div>
+          <p>Still wondering something? <a class="inline-link" href="#contact">Ask directly.</a></p>
+        </div>
+        <div class="faq-list">
+          <details class="reveal"><summary>Can you work with raw product screens?<span>+</span></summary><p>Yes. Product screens, Figma exports, app recordings, brand assets, and rough notes can become a polished motion story.</p></details>
+          <details class="reveal"><summary>Can this be used for ads and landing pages?<span>+</span></summary><p>Yes. I can export formats for reels, ads, product pages, pitch decks, website headers, and founder posts.</p></details>
+          <details class="reveal"><summary>How fast can we move?<span>+</span></summary><p>Small social pieces often take 2-3 working days. Product films and motion systems are scoped around the level of design and animation needed.</p></details>
+          <details class="reveal"><summary>What do I receive?<span>+</span></summary><p>Optimized MP4 exports in agreed formats. Source/project files can be included when they are part of the scope.</p></details>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact__mesh" aria-hidden="true"></div>
+        <div class="contact__intro">
+          <p class="eyebrow">07 / Contact</p>
+          <h2 id="contact-title">Bring me your SaaS launch. I will bring the motion.</h2>
+          <p class="contact__lede">Reply within 24 hours. Send the messy idea, the product link, or the problem the video needs to solve.</p>
+          <div class="contact-pills">
+            <a class="contact-pill magnetic" data-cursor="sayhi" data-whatsapp href="https://wa.me/919680423375?text=Hi%2C%20I%27m%20interested%20in%20a%20SaaS%20motion%20design%20project."><span class="pill-icon">WA</span> +91 9680423375 <i>&nearr;</i></a>
+            <a class="contact-pill magnetic" data-cursor="sayhi" data-instagram href="https://instagram.com/theycallmedronn"><span class="pill-icon">IG</span> @theycallmedronn <i>&nearr;</i></a>
+            <a class="contact-pill magnetic" data-cursor="sayhi" data-email href="mailto:dronverma38@gmail.com"><span class="pill-icon">@</span> dronverma38@gmail.com <i>&nearr;</i></a>
+          </div>
+          <p class="availability"><span></span> Currently taking on 2-3 new SaaS motion projects this month</p>
+        </div>
+        <div class="contact__form-wrap">
+          <p class="form-proof"><span>*</span> Best for launch films, product explainers, founder reels, and UI motion systems.</p>
+          <form class="project-form" id="project-form" action="https://formspree.io/f/mojgdwel" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New Motion Labs project enquiry" />
+            <div class="form-row">
+              <div class="form-field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required /></div>
+              <div class="form-field"><label for="email">Email or phone</label><input id="email" name="email_or_phone" autocomplete="email" required /></div>
+            </div>
+            <div class="form-row">
+              <div class="form-field"><label for="project-type">Project type</label><select id="project-type" name="project_type" required><option value="" selected disabled>Select one</option><option>SaaS product explainer</option><option>Launch film</option><option>Founder reel system</option><option>UI motion kit</option><option>Something else</option></select></div>
+              <div class="form-field"><label for="budget">Budget range</label><select id="budget" name="budget" required><option value="" selected disabled>Select one</option><option>Under &#8377;5,000</option><option>&#8377;5,000 - &#8377;15,000</option><option>&#8377;15,000 - &#8377;30,000</option><option>&#8377;30,000+</option></select></div>
+            </div>
+            <div class="form-field"><label for="message">Tell me a little about it</label><textarea id="message" name="message" rows="4" required></textarea></div>
+            <div class="honeypot" aria-hidden="true"><label for="website">Leave this blank</label><input id="website" name="website" tabindex="-1" autocomplete="off" /></div>
+            <p class="form-error" aria-live="polite"></p>
+            <button class="button button--full magnetic" type="submit" data-cursor="hide"><span class="button__text">Send it over</span> <span>&nearr;</span></button>
+            <p class="form-note">Usually faster, but always within a day.</p>
+          </form>
+          <div class="form-success" aria-live="polite" hidden><span class="success-check">&#10003;</span><h3>Got it.</h3><p>Thanks &mdash; your project enquiry has been sent. I&rsquo;ll reply within 24 hours.</p><button class="text-link" type="button" data-reset-form>Send another enquiry <span>&nearr;</span></button></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand magnetic" href="#top"><span class="brand__mark"><i></i><i></i><i></i></span><span>Motion Labs</span></a>
+      <p>SaaS motion with taste, clarity, and conversion in mind.</p>
+      <p>&copy; 2026</p>
+      <a class="footer-social magnetic" data-cursor="sayhi" href="https://instagram.com/theycallmedronn" aria-label="Portfolio on Instagram">IG</a>
+    </footer>
+    <a class="mobile-cta" href="#contact">Start a project <span>&nearr;</span></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
